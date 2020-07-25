@@ -1,0 +1,40 @@
+{
+  "name": "whcampus",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "test:unit": "vue-cli-service test:unit",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "core-js": "^3.6.5",
+    "echarts": "^4.8.0",
+    "element-ui": "^2.13.2",
+    "eslint-plugin-vuefix": "^0.2.1",
+    "vue": "^2.6.11",
+    "vuex": "^3.5.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.4.0",
+    "@vue/cli-plugin-eslint": "^4.4.0",
+    "@vue/cli-plugin-unit-jest": "^4.4.0",
+    "@vue/cli-service": "^4.4.0",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "@vue/test-utils": "^1.0.3",
+    "babel-eslint": "^10.1.0",
+    "babel-plugin-component": "^1.1.1",
+    "babel-polyfill": "^6.26.0",
+    "eslint": "^6.7.2",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-vue": "^6.2.2",
+    "jquery": "^3.5.1",
+    "less": "^3.0.4",
+    "less-loader": "^5.0.0",
+    "prettier": "^1.19.1",
+    "vue-template-compiler": "^2.6.11"
+  }
+}

@@ -1,0 +1,68 @@
+@import './clocks.css';
+html,body {
+    height: 100%;
+    background: #17253a;
+    color: #fff;
+    margin: 0;
+    padding:0;
+    font-size:16px;
+    font-family:"Times New Roman",
+    Times,
+    serif;
+}
+.title {
+    line-height: 20px;
+    color: #fff;
+}
+
+.linearborder {
+    border-bottom: 1px solid;
+    border-image: -webkit-linear-gradient(left, #121235, #38388e, #121235) 30 30;
+    border-color: #17253a;
+}
+.clearfix{
+    content:"";
+    display:table;
+    clear:both;
+}
+.clearfix{*zoom:1;}
+
+/* .el-table{
+    margin-top:2px;
+} */
+.el-table,
+.el-table th,
+.el-table  td{
+    border:1px solid #17253a;
+    color:#fff;
+    font-size:16px;
+    line-height:16px;
+    font-family:"Times New Roman",
+    Times,
+    serif;
+}
+.el-table::before {
+    /* border:none; */
+    /* width: 0; */
+    background-color: #17253a !important;
+}
+.el-table thead {
+    color: #FFF;
+    text-align: left;
+    background: #121d31 !important;
+}
+/* 表头下面的线 */
+.el-table td,
+.el-table th.is-leaf {
+    border-bottom: none;
+}
+
+.el-table th {
+    background: #121d31 !important;
+}
+
+.el-table tr {
+    background: #17253a !important;
+    
+}
+
